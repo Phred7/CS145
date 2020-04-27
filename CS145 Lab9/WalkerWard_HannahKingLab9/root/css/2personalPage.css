@@ -1,0 +1,71 @@
+/*****************************************************
+ * Lab 7
+ * CSCI 145
+ * Add selectors and rules to this file and 
+ * modify the accompanying HTML to create
+ * the style and layout described in the assignment.
+ *****************************************************/
+
+body{
+    background-color: lightblue;
+    width: 100%;
+}
+
+header{
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    !text-indent: 10px;
+    box-sizing: border-box;
+}
+
+#main{
+    background-color: lightslategray;
+    width: 67%;
+    float: right;
+    height: 750px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    
+    
+}
+
+#sidebar{
+    background-color: mediumslateblue;
+    width: 33%;
+    float: left;
+    height: 750px;
+    padding: 10px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+#photo{
+    padding-top: 24px;
+    width: 45%;
+    float: left;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+}
